@@ -2,17 +2,16 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black shadow-sm">
       <div className="container">
-        <a className="navbar-brand" href="#">Austin O'Neill</a>
-        <div className="collapse navbar-collapse">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
-            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-          </ul>
+        <a className="navbar-brand accent" href="#">Austin O'Neill</a>
+        <div className="d-flex gap-3">
+          <a href="#projects" className="nav-link text-light">Projects</a>
+          <a href="#about" className="nav-link text-light">About</a>
+          <a href="#contact" className="nav-link text-light">Contact</a>
         </div>
       </div>
     </nav>
   );
 }
+

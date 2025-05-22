@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <header className="bg-primary text-white text-center py-5">
-      <div className="container">
-        <h1>Hello, I'm Austin</h1>
-        <p className="lead">Full-Stack Developer | JavaScript | React | Node.js</p>
-      </div>
+    <header className="text-center py-5" data-aos="fade-in">
+      <h1 className="display-4 accent">Hi, I'm Austin</h1>
+      <p className="lead">Full Stack Developer | JavaScript Enthusiast</p>
     </header>
   );
 }
+
+
